@@ -4,12 +4,11 @@
 
 {%- endcomment -%}
 <div class="card">
-    <div class="card-header">Source</div>
+    <div class="card-header"><strong>¿Cómo citar?</strong></div>
     <div class="card-body">
         <dl>
-            <dt>Preferred Citation:</dt>
-            <dd>"{{ page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
-            <dt>Reference Link:</dt>
+            <dd>{{ page.creator }}. ({{ page.date }}). "{{ page.title }}".</dd>
+            <dt>Enlace permanente:</dt>
             <dd>{{ page.url | absolute_url }}</dd>
         </dl>
     </div>

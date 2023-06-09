@@ -1,48 +1,57 @@
 ---
-# Lunr search page
+# Páxina "Búsqueda avanzada"
 layout: page 
 custom-foot: js/lunr-js.html
 ---
 {%- assign fields = site.data.config-search | where: 'index',true | map: 'field' -%}
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Search Options</button>
-<!-- Modal -->
-<div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel">Lunr Search Options</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>These advanced options can be added to your query in the search box to refine your results:</p> 
-                <ul>
-                    <li>Search a specific field: use the field name, colon, then your query, e.g. <code>title:foo</code>, <code>date:1911</code>, <code>subject:tree</code>. In this collection you can use {{ fields | join: ", " }}.</li>
-                    <li>Wildcards: add <code>*</code> to match any character(s), e.g. <code>foo*</code>, <code>*oo</code>. This is helpful for using a root to find words with all related endings.</li>
-                    <li>Fuzzy match: add <code>~</code> plus a number at the end of your query to specify a higher level of fuzziness in search, e.g. <code>foo~1</code>. This can help with misspellings.</li>
-                    <li>Boost term: add <code>^</code> plus a number to boost the relevance of a term in your query, e.g. <code>foo^10</code>. This can help reduce clutter of unrelated results if one of your terms is most important.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
 
 {{ content }}
 
 <div class="ms-3 mt-3">
     <form class="" role="search" id="lunrSearch" onsubmit="lunr_search(); return false;">
         <div class="input-group input-group-lg">
-            <input id="lunrSearchBox" class="form-control " type="text" placeholder="Enter your search term..." >
-            <button class="btn btn-success" type="submit">
-                Search
+            <input id="lunrSearchBox" class="form-control " type="text" placeholder="Introduce los términos de búsqueda..." >
+            <button class="btn btn-primary btn-lg float-md-end" type="submit">
+                Buscar
             </button>
         </div>
     </form>
-    
+<br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Operadores de búsqueda</button>
+<!-- Modal -->
+<div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Operadores de búsqueda</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Puedes utilizar los siguientes operadores para acotar los resultados de la búsqueda:</p> 
+                <ul>
+                    <li><strong>Buscar en un campo específico:</strong> utiliza el nombre del campo, dos puntos y después el término de búsqueda. En esta colección puedes utilizar como campos de búsqueda: <code>{{ fields | join: ", " }}</code>.<br>
+					Ejemplos: <br>
+					<code>title:visita</code> <br>
+					<code>date:1911</code> <br>
+					<code>subject:autoridades</code> <br> 
+					</li>
+                    <li><strong>Comodines:</strong> añade <code>*</code> para que coincida con cualquier carácter.<br> 
+					Ejemplos: <br>
+					<code>ilustr*</code>, recuperará todos los registros que contengan términos como <code>ilustrador</code>, <code>ilustracionrs</code>, <code>ilustrada</code>, <code>ilustrativo</code>, etc.<br>
+					<code>*or</code>, recuperará todos los registros que contengan palabras terminadas en "or" como <code>pintor</code>, <code>escritor</code>, <code>diseñador</code>, etc.</li>
+                    <li><strong>Coincidencia difusa:</strong> añade <code>~</code> seguido de una cifra al final de la consulta para especificar el número de caracteres de la palabra que pueden ser añadidos, eliminados, cambiados o traspuestos a fin de encontrar una nueva coincidencia.<br> 
+					Ejemplo: <br>
+					<code>reglamento~5</code>, también recuperará registros que contengan el término "reglamentación" ya que haciendo 5 cambios en el término de búsqueda daría lugar a esta coincidencia.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>   
     <table id="lunrResults" class="table table-responsive"></table>
 </div>
 
 <div class="mt-3">
-    <p class="text-muted">Fuzzy search powered by <a href="https://lunrjs.com/" target="_blank" rel="noopener">Lunr.js</a>. <em>May take a second to load large collections!</em></p>
+    <p class="text-muted"> <a href="" target="_blank" rel="noopener"></a>. <em></em></p>
     {% if site.google-cse-id %}<p class="text-muted">Alternatively, try <a href="{{ '/search/google.html' | relative_url }}">Google CSE</a> site search.</p>{% endif %}
 </div>

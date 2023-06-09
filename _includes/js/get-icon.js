@@ -12,7 +12,7 @@ function getIcon(objectTemplate,objectFormat,svgType) {
         iconTemplate = ""
     }
     // choose icon
-    if (iconTemplate.includes("image")) {
+    if (iconTemplate.includes("imagen")) {
         iconId = "icon-image";
         iconTitle = "image file icon";
     } else if (iconTemplate.includes("pdf")) {
@@ -27,10 +27,10 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     } else if (iconTemplate.includes("panorama")) {
         iconId = "icon-panorama";
         iconTitle = "panorama file icon";
-    } else if (iconTemplate.includes("compound")) {
+    } else if (iconTemplate.includes("compendio")) {
         iconId = "icon-compound-object";
         iconTitle = "compound object icon";
-    } else if (iconTemplate.includes("multiple")) {
+    } else if (iconTemplate.includes("postal")) {
         iconId = "icon-multiple";
         iconTitle = "multiple object icon";
     } else {

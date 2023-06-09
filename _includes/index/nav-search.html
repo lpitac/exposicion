@@ -1,0 +1,54 @@
+ <script>
+    function site_search() {
+        var query = document.getElementById("site-search-1").value;
+        window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
+    }
+	</script>
+	
+<div class="card mb-3">
+
+  <div class="card-body">
+    <h5 class="card-title">Buscar en la colección</h5>
+  
+ <form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
+    <div class="input-group">
+        <input id="site-search-1" class="form-control " type="text" placeholder="Introduce los términos de búsqueda" aria-label="Search box">
+        <button class="btn btn-primary btn-lg float-md-end" type="submit">
+            Buscar
+		</button>
+    </div>
+</form>
+<br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Operadores de búsqueda</button>
+<!-- Modal -->
+<div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Operadores de búsqueda</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Puedes utilizar los siguientes operadores para acotar los resultados de la búsqueda:</p> 
+                <ul>
+                    <li><strong>Buscar en un campo específico:</strong> utiliza el nombre del campo, dos puntos y después el término de búsqueda. En esta colección puedes utilizar como campos de búsqueda: <code>{{ fields | join: ", " }}</code>.<br>
+					Ejemplos: <br>
+					<code>title:visita</code> <br>
+					<code>date:1911</code> <br>
+					<code>subject:autoridades</code> <br> 
+					</li>
+                    <li><strong>Comodines:</strong> añade <code>*</code> para que coincida con cualquier carácter.<br> 
+					Ejemplos: <br>
+					<code>ilustr*</code>, recuperará todos los registros que contengan términos como <code>ilustrador</code>, <code>ilustracionrs</code>, <code>ilustrada</code>, <code>ilustrativo</code>, etc.<br>
+					<code>*or</code>, recuperará todos los registros que contengan palabras terminadas en "or" como <code>pintor</code>, <code>escritor</code>, <code>diseñador</code>, etc.</li>
+                    <li><strong>Coincidencia difusa:</strong> añade <code>~</code> seguido de una cifra al final de la consulta para especificar el número de caracteres de la palabra que pueden ser añadidos, eliminados, cambiados o traspuestos a fin de encontrar una nueva coincidencia.<br> 
+					Ejemplo: <br>
+					<code>reglamento~5</code>, también recuperará registros que contengan el término "reglamentación" ya que haciendo 5 cambios en el término de búsqueda daría lugar a esta coincidencia.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+ </div>
+</div>

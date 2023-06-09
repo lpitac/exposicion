@@ -1,0 +1,53 @@
+---
+# Páxina "Colección"
+layout: page
+custom-foot: js/browse-js.html
+---
+
+{{ content }}
+
+<div class="row mb-4 justify-content-center">
+    <div class="col-md-6 text-center">
+        <form class="" role="search" id="lunrSearch" onsubmit="submitFilter(); return false;">
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Introduce un término... " aria-label="Filtrar"> 
+                <button class="btn btn-primary btn-lg float-md-end" type="submit" title="Filter items" alt="Search" id="filterButton" >Filtrar</button>
+                <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Limpiar</button>
+            </div>
+        </form>  
+			
+    </div>
+		
+    <div class="col-md-2">
+        <div class="dropdown">
+            <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Orden <span class="font-weight-bold" id="sortFilter">aleatoria</span>
+            </button>
+            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
+                <button class="dropdown-item browse-sort-item active" data-filter="random">aleatoria</button>
+                <button class="dropdown-item browse-sort-item" data-filter="title">por título</button>
+                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+                {% for o in sort_options %}
+                {% endfor %}
+                <button class="dropdown-item browse-sort-item" data-filter="date">por fecha</button>
+                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+                {% for o in sort_options %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+	<div class="col-md-2">	
+		<a href="{{ site.baseurl }}/search/index.html" class="btn btn-primary mt-1 btn active" role="button" aria-pressed="true">Búsqueda avanzada</a>
+	</div>
+<br>
+<br>
+<br>
+<div id="numerototal" class="text-center">
+		<div class="h2" id="numberOf"></div>
+</div>		
+
+<div id="loadingIcon" class="text-center">
+    <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Cargando...</span></div>
+</div>
+
+<div class="row" id="browseItems"></div>

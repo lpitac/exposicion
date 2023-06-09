@@ -3,14 +3,13 @@
     Adds a basic citation box for child item with reference link to the child page.
 
 {%- endcomment -%}
-<div class="card mb-2">
-    <div class="card-header">Source</div>
+<div class="card">
+    <div class="card-header"><strong>¿Cómo citar?</strong></div>
     <div class="card-body">
         <dl>
-            <dt>Preferred Citation:</dt>
-            <dd>"{{ child.title | default: page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
-            <dt>Reference Link:</dt>
-            <dd>{{ page.url | absolute_url }}#{{ child.objectid }}</dd>
+            <dd>{{ page.creator }}. ({{ page.date }}). "{{ page.title }}".</dd>
+            <dt>Enlace permanente:</dt>
+            <dd>{{ page.url | absolute_url }}</dd>
         </dl>
     </div>
 </div>

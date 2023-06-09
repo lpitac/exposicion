@@ -59,7 +59,7 @@ function makeCard(obj) {
     var btns = obj[{{ f.field | jsonify }}].split(";");
     for (var i = 0, len = btns.length; i < len; i++) {
         if(btns[i] != "") {
-        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+        card += '<a class="btn btn-sm btn-outline-primary m-1 text-wrap" href="{{ '/coleccion.html' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
         }
     }
     {% else %}
@@ -72,11 +72,11 @@ function makeCard(obj) {
     // media type
     if(obj.template && obj.template != "") {
         mediaIcon = getIcon(obj.template,obj.format,"hidden");
-        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.template) + '">' + 
+        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-primary" href="{{ "/coleccion.html" | relative_url }}#' + encodeURIComponent(obj.template) + '">' + 
         obj.template.toUpperCase() + ' ' + mediaIcon + '</a></small></p>';
     }
     // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-primary" title="link to ' + obj.title + '">Ver recurso</a>';
     // close divs
     card += '</div></div></div>';
     // send back big string
@@ -103,7 +103,7 @@ function filterItems(arr,q) {
         }
     }
     // add number 
-    document.querySelector("#numberOf").innerHTML = filteredItems.length + " of {{ items | size }} items";
+    document.querySelector("#numberOf").innerHTML = filteredItems.length + " de {{ items | size }} recursos";
     
     // add stuff, make cards first in giant var, then add all at once to speed things up
     var cards = "";
