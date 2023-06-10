@@ -14,7 +14,7 @@
             <div class="my-auto">
                 <div class="card-body text-center" id="{{ child.objectid }}Card">
                 
-                    {% if child.title %}<div class="small text-dark mb-2">{{ child.title | truncatewords: 4 }}</div>{% endif %}
+                    {% if child.title %}<div class="small text-dark mb-2">{{ child.title | truncatewords: 7 }}</div>{% endif %}
                     
                     <div class="mb-2">
                         {% if child.image_thumb or child.image_small %}
@@ -34,9 +34,9 @@
                         data-bs-toggle="modal"
                         href="#{{ child.objectid }}"
                         onclick="window.location.hash='{{ child.objectid }}'"
-                        class="btn btn-sm btn-outline-secondary small stretched-link">
+                        class="btn btn-sm btn-outline-primary small stretched-link">
                         {%- assign icon_template = child.display_template | default: item.format -%}
-						{{ child.display_template | upcase | default: "Item" }} <svg class="bi icon-sprite" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#{% if icon_template contains 'imagen' %}icon-image{% elsif icon_template contains 'pdf' %}icon-pdf{% elsif icon_template contains 'audio' %}icon-audio{% elsif icon_template contains 'video' %}icon-video{% elsif icon_template contains 'registro' %}icon-record{% elsif icon_template contains 'postal' %}icon-multiple{% elsif icon_template contains 'compendio' %}icon-compound-object{% else %}icon-default{% endif %}"/></svg>
+						{{ child.display_template | upcase | default: "Item" }} <svg class="bi icon-sprite" fill="primary" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#{% if icon_template contains 'imagen' %}icon-image{% elsif icon_template contains 'pdf' %}icon-pdf{% elsif icon_template contains 'audio' %}icon-audio{% elsif icon_template contains 'video' %}icon-video{% elsif icon_template contains 'registro' %}icon-record{% elsif icon_template contains 'postal' %}icon-multiple{% elsif icon_template contains 'compendio' %}icon-compound-object{% else %}icon-default{% endif %}"/></svg>
                     </a> 
 
                     <!-- child object modal -->
