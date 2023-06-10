@@ -23,7 +23,7 @@ title: Exposición Virtual
 #tagline: Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Exposición Virtual es una plantilla para crear una exposición virtual a partir de una colección de objetos digitales y un archivo CSV con sus metadatos."
+description: "Esta es la plantilla que utiliza Fiador para crear exposiciones virtuales hilando objetos digitales con sus metadatos en formato CSV."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho;history;inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
