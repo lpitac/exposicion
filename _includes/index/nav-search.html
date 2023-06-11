@@ -4,7 +4,7 @@
         window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
 	</script>
-	
+{%- assign fields = site.data.config-search | where: 'index',true | map: 'field' -%}	
 <div class="card mb-3">
 
   <div class="card-body">
@@ -27,7 +27,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modalLabel">Operadores de búsqueda</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
             <div class="modal-body">
                 <p>Puedes utilizar los siguientes operadores para acotar los resultados de la búsqueda:</p> 
@@ -40,7 +40,7 @@
 					</li>
                     <li><strong>Comodines:</strong> añade <code>*</code> para que coincida con cualquier carácter.<br> 
 					Ejemplos: <br>
-					<code>ilustr*</code>, recuperará todos los registros que contengan términos como <code>ilustrador</code>, <code>ilustracionrs</code>, <code>ilustrada</code>, <code>ilustrativo</code>, etc.<br>
+					<code>ilustr*</code>, recuperará todos los registros que contengan términos como <code>ilustrador</code>, <code>ilustraciones</code>, <code>ilustrada</code>, <code>ilustrativo</code>, etc.<br>
 					<code>*or</code>, recuperará todos los registros que contengan palabras terminadas en "or" como <code>pintor</code>, <code>escritor</code>, <code>diseñador</code>, etc.</li>
                     <li><strong>Coincidencia difusa:</strong> añade <code>~</code> seguido de una cifra al final de la consulta para especificar el número de caracteres de la palabra que pueden ser añadidos, eliminados, cambiados o traspuestos a fin de encontrar una nueva coincidencia.<br> 
 					Ejemplo: <br>
