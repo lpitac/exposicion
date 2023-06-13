@@ -20,7 +20,7 @@ source-code: https://github.com/lpitac/exposicion
 # title of site appears in banner
 title: Exposición Virtual 
 # tagline, a short phrase that will appear throughout the site in the top banner
-#tagline: Digital Collection Magic with Static Web Technologies
+tagline: Creada con Fiador 1.0
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Esta es la plantilla que utiliza Fiador para crear exposiciones virtuales hilando objetos digitales con sus metadatos en formato CSV."
