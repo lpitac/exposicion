@@ -1,5 +1,5 @@
 {%- assign templates = site.data[site.metadata] | where_exp: 'item','item.parentid == nil ' | map: "display_template" -%}
-{%- assign types = "imagen;postal;pdf;audio;video;panorama;registro;compendio" | split: ";" -%}
+{%- assign types = "imagen;fotografia;dibujo;grabado;libro;audio;video;pdf;panorama;registro;postal;recopilacion;cuadro;archivo" | split: ";" -%}
 <div class="card mb-3" >
   <div class="card-body">
     <h5 class="card-title">Tipología de la colección</h5>
@@ -9,22 +9,32 @@
       {% if count > 0 %}
       {{ count }}      
       {% case t %}
-      {% when 'imagen' %} 
-      <a class="text-primary" href="{{ 'imagen' | prepend: '/coleccion.html#' | relative_url }}">fotografía{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-image"/></svg></a><br>
-      {% when 'audio' %}
-      <a class="text-primary" href="{{ 'audio' | prepend: '/coleccion.html#' | relative_url }}">audio{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-audio"/></svg></a><br>
+	  {% when 'imagen' %} 
+      <a class="text-primary" href="{{ 'imagen' | prepend: '/coleccion.html#' | relative_url }}">{% if count > 1 %}imágenes{% else %}imagen{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-image"/></svg></a><br>
+	  {% when 'fotografia' %} 
+      <a class="text-primary" href="{{ 'fotografia' | prepend: '/coleccion.html#' | relative_url }}">fotografía{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/image.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
+      {% when 'dibujo' %} 
+      <a class="text-primary" href="{{ 'dibujo' | prepend: '/coleccion.html#' | relative_url }}">dibujo{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/pencil.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
+	  {% when 'grabado' %} 
+      <a class="text-primary" href="{{ 'grabado' | prepend: '/coleccion.html#' | relative_url }}">grabado{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/layers.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
+	  {% when 'libro' %}
+	  <a class="text-primary" href="{{ 'libro' | prepend: '/coleccion.html#' | relative_url }}">libro{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/book.svg' | relative_url }}" alt="book icon" class="bi icon-sprite text-body"/></a><br>
+	  {% when 'audio' %}
+	  <a class="text-primary" href="{{ 'audio' | prepend: '/coleccion.html#' | relative_url }}">audio{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/soundwave.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
       {% when 'video' %}
-      <a class="text-primary" href="{{ 'video' | prepend: '/coleccion.html#' | relative_url }}">vídeo{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-video"/></svg></a><br>
+      <a class="text-primary" href="{{ 'video' | prepend: '/coleccion.html#' | relative_url }}">vídeo{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/film.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
       {% when 'pdf' %}
-      <a class="text-primary" href="{{ 'pdf' | prepend: '/coleccion.html#' | relative_url }}">PDF{% if count > 1 %}'s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-pdf"/></svg></a><br>
+      <a class="text-primary" href="{{ 'pdf' | prepend: '/coleccion.html#' | relative_url }}">PDF{% if count > 1 %}'s{% endif %} <img src="{{ '/assets/lib/icons/file-pdf.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
       {% when 'panorama' %}
-      <a class="text-primary" href="{{ 'panorama' | prepend: '/coleccion.html#' | relative_url }}">panorámica{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-panorama"/></svg></a><br>
+      <a class="text-primary" href="{{ 'panorama' | prepend: '/coleccion.html#' | relative_url }}">panorámica{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/image-alt.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
       {% when 'registro' %}
-      <a class="text-primary" href="{{ 'registro' | prepend: '/coleccion.html#' | relative_url }}">registro{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg></a><br>      
+      <a class="text-primary" href="{{ 'registro' | prepend: '/coleccion.html#' | relative_url }}">registro{% if count > 1 %}s{% endif %} <img src="{{ '/assets/lib/icons/file-text.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
       {% when 'postal' %}
-      <a class="text-primary" href="{{ 'postal' | prepend: '/coleccion.html#' | relative_url }}">postal{% if count > 1 %}es{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-multiple"/></svg></a><br>
-      {% when 'compendio' %}
-      <a class="text-primary" href="{{ 'compendio' | prepend: '/coleccion.html#' | relative_url }}">compendio{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-compound-object"/></svg></a><br>
+      <a class="text-primary" href="{{ 'postal' | prepend: '/coleccion.html#' | relative_url }}">postal{% if count > 1 %}es{% endif %} <img src="{{ '/assets/lib/icons/postcard.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
+      {% when 'recopilacion' %}
+      <a class="text-primary" href="{{ 'recopilacion' | prepend: '/coleccion.html#' | relative_url }}">{% if count > 1 %}recopilaciones{% else %}recopilación{% endif %} <img src="{{ '/assets/lib/icons/collection.svg' | relative_url }}" alt="image icon" class="bi icon-sprite text-body"/></a><br>
+	  {% when 'cuadro' %}
+      <a class="text-primary" href="{{ 'cuadro' | prepend: '/coleccion.html#' | relative_url }}">cuadro{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-brush"/></svg></a><br>      
 	  {% else %}
       <a class="text-primary" href="{{ 'archivo' | prepend: '/coleccion.html#' | relative_url }}">archivo{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-default"/></svg></a><br>
       {%- endcase -%}

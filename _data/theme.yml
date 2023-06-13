@@ -23,14 +23,14 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject # set the field to be featured in the cloud (if left blank, none will be generated)
+subjects-fields: tema # set the field to be featured in the cloud (if left blank, none will be generated)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set the field to be featured in the cloud
+locations-fields: localizacion # set the field to be featured in the cloud
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -51,16 +51,16 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 10 # set increments when auto gen nav years
+year-nav-increment: 1 # set increments when auto gen nav years
 
 ##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "titulo,autor,fecha,descripcion,temas,idioma,fuente,localizacion,latitud,longitud,type,format"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "tema,autor,format"
 
 ##########
 # COMPOUND OBJECTS
@@ -105,10 +105,17 @@ font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/c
 # the default keys are icon-image, icon-audio, icon-video, icon-pdf, and icon-default
 # the values must match an icon svg name in "assets/lib/icons/"
 #
-# icons: 
-icon-image: image
-icon-audio: file-earmark-play
-icon-video: camera-video
-icon-pdf: file-earmark-text 
-icon-default: file-earmark # fall back icon
-icon-back-to-top: arrow-up-square # scroll to top icon
+icons: 
+  icon-image: image
+  icon-audio: soundwave
+  icon-video: film
+  icon-pdf: file-pdf
+  icon-record: file-text
+  icon-panorama: image-alt
+  icon-compound-object: collection 
+  icon-multiple: postcard
+  icon-default: file-earmark # fall back icon
+  icon-back-to-top: arrow-up-square
+  icon-book: book
+  icon-pencil: pencil
+  icon-layers: layers

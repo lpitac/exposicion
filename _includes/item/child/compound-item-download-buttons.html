@@ -6,22 +6,22 @@
 
 {%- endcomment -%}
 <div class="btn" role="group" aria-label="Item options">
-    {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
+    {% if page.fecha %}{%- capture year -%}{% if page.fecha contains "-" %}{{ page.fecha | split: "-" | first }}{% elsif page.fecha contains "/" %}{{ page.fecha | split: "/" | last }}{% else %}{{ page.fecha }}{% endif %}{%- endcapture -%}
     <a href="{{ year | strip | prepend: '/timeline.html#y' | relative_url }}" class="btn btn-primary">Ver en la línea de tiempo</a>{% endif %}
     {% if page.latitude and page.longitude %}
-    <a href="{{ '/map.html?location=' | append: page.latitude  | append: ',' | append: page.longitude | append: '&marker=' | append: page.objectid | relative_url }}" class="btn btn-outline-primary">View on Map</a>{% endif %}
+    <a href="{{ '/map.html?localizacion=' | append: page.latitud  | append: ',' | append: page.longitud | append: '&marker=' | append: page.objectid | relative_url }}" class="btn btn-outline-primary">Ver en el mapa</a>{% endif %}
 
     <div class="btn" role="group">
         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Descargar
         </button>
         <ul class="dropdown-menu">
-            {% if page.object_location %}<li><a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="dropdown-item">{{ page.title }} ({{ page.format | split: '/' | last | upcase }})</a></li>{% endif %}
+            {% if page.object_location %}<li><a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="dropdown-item">{{ page.titulo }} ({{ page.format | split: '/' | last | upcase }})</a></li>{% endif %}
             {% for child in children %}
             {% unless child.object_location == nil %}
             <li>
                 <a target="_blank" rel="noopener" href="{{ child.object_location | relative_url }}" class="dropdown-item">
-                    {% if page.title != child.title and child.title != nil %}{{ child.title | truncatewords: 3 }}{% else %}Item {{ forloop.index }}{% endif %}
+                    {% if page.titulo!= child.titulo and child.titulo != nil %}{{ child.titulo | truncatewords: 3 }}{% else %}Recurso {{ forloop.index }}{% endif %}
                     {% if child.format %}({{ child.format | split: '/' | last | upcase }}){% endif %}
                 </a>
             </li>

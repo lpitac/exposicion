@@ -15,7 +15,19 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     if (iconTemplate.includes("imagen")) {
         iconId = "icon-image";
         iconTitle = "image file icon";
-    } else if (iconTemplate.includes("pdf")) {
+    } else if (iconTemplate.includes("fotografia")) {
+        iconId = "icon-image";
+        iconTitle = "image file icon";
+	} else if (iconTemplate.includes("dibujo")) {
+        iconId = "icon-pencil";
+        iconTitle = "pencil file icon";
+	} else if (iconTemplate.includes("grabado")) {
+        iconId = "icon-layers";
+        iconTitle = "layers file icon";
+	} else if (iconTemplate.includes("libro")) {
+        iconId = "icon-book";
+        iconTitle = "book file icon";
+	} else if (iconTemplate.includes("pdf")) {
         iconId = "icon-pdf";
         iconTitle = "pdf file icon";
     } else if (iconTemplate.includes("video")) {
@@ -27,7 +39,7 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     } else if (iconTemplate.includes("panorama")) {
         iconId = "icon-panorama";
         iconTitle = "panorama file icon";
-    } else if (iconTemplate.includes("compendio")) {
+    } else if (iconTemplate.includes("recopilacion")) {
         iconId = "icon-compound-object";
         iconTitle = "compound object icon";
     } else if (iconTemplate.includes("postal")) {

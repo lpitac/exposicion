@@ -3,8 +3,8 @@
 {% else %}
 {%- assign date-items = site.data[site.metadata] | where_exp: 'item','item.parentid == nil' -%}
 {% endif %}
-{%- assign raw-dates = date-items | map: 'date' | compact | uniq -%}
-{%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
+{%- assign raw-dates = date-items | map: 'fecha' | compact | uniq -%}
+{%- capture clean-years -%}{% for fecha in raw-dates %}{% if fecha contains "-" %}{{ fecha | strip | split: "-" | first }}{% elsif fecha contains "/" %}{{ fecha | strip | split: "/" | last }}{% else %}{{ fecha | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
 {%- assign date-range = clean-years | remove: " " | split: ";" | uniq | sort  -%}
 {%- assign first_year = date-range | first -%}
 {%- assign last_year = date-range | last -%}

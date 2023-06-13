@@ -5,13 +5,13 @@
 
 {%- endcomment -%}
 <div class="btn" role="group" aria-label="Item options">
-    {% if child.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ child.objectid }}" aria-expanded="false" aria-controls="collapseExample">View Transcript</button>{% endif %}
-    {% if child.date %}{%- capture year -%}{% if child.date contains "-" %}{{ child.date | split: "-" | first }}{% elsif child.date contains "/" %}{{ child.date | split: "/" | last }}{% else %}{{ child.date }}{% endif %}{%- endcapture -%}
+    {% if child.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ child.objectid }}" aria-expanded="false" aria-controls="collapseExample">Ver transcipción</button>{% endif %}
+    {% if child.fecha %}{%- capture year -%}{% if child.fecha contains "-" %}{{ child.fecha | split: "-" | first }}{% elsif child.fecha contains "/" %}{{ child.fecha | split: "/" | last }}{% else %}{{ child.fecha }}{% endif %}{%- endcapture -%}
     <a href="{{ year | strip | prepend: '/timeline.html#y' | relative_url }}" class="btn btn-primary">Ver en la línea de tiempo</a>{% endif %}
-    {% if child.latitude and child.longitude %}
-    <a href="{{ '/map.html?location=' | append: page.latitude  | append: ',' | append: page.longitude | append: '&marker=' | append: page.objectid | relative_url }}" class="btn btn-outline-primary">View on Map</a>{% endif %}
+    {% if child.latitud and child.longitud %}
+    <a href="{{ '/map.html?localizacion=' | append: page.latitud  | append: ',' | append: page.longitud | append: '&marker=' | append: page.objectid | relative_url }}" class="btn btn-outline-primary">Ver en el mapa</a>{% endif %}
     {% if child.object_location %}<a target="_blank" rel="noopener" href="{{ child.object_location | relative_url }}" class="btn btn-primary">
-        {% if child.object_location contains 'vimeo' %}View on Vimeo{% elsif child.object_location contains 'youtu' %}View on YouTube{% elsif child.display_template == 'registro'%}Link to Object{% else %}Descargar {{ child.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
+        {% if child.object_location contains 'vimeo' %}View on Vimeo{% elsif child.object_location contains 'youtu' %}View on YouTube{% elsif child.display_template == 'registro'%}Link to Object{% else %}Descargar{% endif %}
     </a>{% endif %}
 </div>
 {% if child.object_transcript %}

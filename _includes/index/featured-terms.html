@@ -28,7 +28,7 @@
 {% comment %} 
     Use termsField and termsMax to customize feature 
 {% endcomment %}
-{% assign termsField = include.field | default: "subject" %}
+{% assign termsField = include.field | default: "tema" %}
 {% assign termsMax = include.max | default: 7 %}
 {% if site.data.theme.browse-child-objects == true %}
 {%- assign terms = site.data[site.metadata] | where_exp: 'item','item.objectid' | map: termsField | join: ";" -%}
@@ -47,7 +47,7 @@
         <p class="card-text">
             {% for s in topTerms %}
             <a class="btn btn-sm btn-outline-primary m-1" href="{{ s | strip | url_param_escape | prepend: '/coleccion.html#' | relative_url }}">{{ s | strip }}</a>{% endfor %}
-        <a class="btn btn-sm btn-primary mt-2" href="{{ '/subjects.html' | relative_url }}">Ver Temas</a>	
+        <a class="btn btn-sm btn-primary mt-2" href="{{ '/temas.html' | relative_url }}">Ver Temas</a>	
 		</p>
     </div>
 </div>

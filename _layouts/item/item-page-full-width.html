@@ -9,8 +9,8 @@ item-meta: true
 <div class="container-fluid py-3">
 
     {% include item/breadcrumbs.html %}
-    <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compendio" %} ({{ children | size }} Items){% endif %}</div>
-    <h2 class="mb-3">{{ page.title }} 
+    <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "recopilacion" %} ({{ children | size }} Items){% endif %}</div>
+    <h2 class="mb-3">{{ page.titulo }} 
         {% unless page.display_template == 'registro' %}<a href="#metadata" class="ms-5 btn btn-sm btn-outline-dark small">Ver registro 
             <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info">
                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-down"/>
