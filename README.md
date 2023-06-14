@@ -1,15 +1,15 @@
 # Exposición Virtual
 
-Exposición Virtual es un fork de [CollectionBuilder](https://collectionbuilder.github.io/) una plantilla basada en [Jekyll] (https://jekyllrb.com/), que permite construir un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
-Impulsada por los metadatos de su colección, la plantilla genera visualizaciones atractivas para navegar y explorar sus objetos.
-El sitio estático resultante se puede alojar en cualquier servidor web básico (o se puede construir automáticamente usando GitHub Actions).
+Exposición Virtual es un fork de [CollectionBuilder](https://collectionbuilder.github.io/) una plantilla basada en [Jekyll](https://jekyllrb.com/), que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
+Este sitio web se puede alojar en cualquier carpeta compartida de la red (local o internet), en un servidor web básico o en GitHub.
 
-Visit the [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) for step-by-step details for getting started and building collections!
+## Mejoras implementadas
+El principal objetivo 
+ usando GitHub Actions).
 
-## Brief Overview of Building a Collection
+## Cómo utilizar esta plantilla
 
-The [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) contain detailed information about building a collection from start to finish--including installing software, using Git/GitHub, preparing digital objects, and formatting metadata.
-However, here is a super quick overview of the process:
+:
 
 - Make your own copy of this template repository by clicking the green "Use this Template" button on GitHub (see [repository set up docs](https://collectionbuilder.github.io/cb-docs/docs/repository/)). This copy of the template is the starting point for your "project repository", i.e. the source code for your digital collection site!
 - Prepare your collection metadata following the CB-CSV template (see our demo [metadata template on Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing) and [metadata docs](https://collectionbuilder.github.io/cb-docs/docs/metadata/csv_metadata/)). Your metadata will include links to your digital files (images, pdfs, videos, etc) and thumbnails wherever they are hosted.
@@ -21,22 +21,23 @@ Please feel free to ask questions in the main [CollectionBuilder discussion foru
 
 ----------
 
-## CollectionBuilder 
+## Tecnologías empleadas 
 
-<https://collectionbuilder.github.io/>
+### Tema de la plantilla 
+El diseño del sitio web hace uso de [Bootstrap](https://getbootstrap.com/).
 
-CollectionBuilder is a project of University of Idaho Library's [Digital Initiatives](https://www.lib.uidaho.edu/digital/) and the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu) (CDIL) following the [Lib-Static](https://lib-static.github.io/) methodology. 
-Powered by the open source static site generator [Jekyll](https://jekyllrb.com/) and a modern static web stack, it puts collection metadata to work building beautiful sites.
+### Visualizaciones
 
-The basic theme is created using [Bootstrap](https://getbootstrap.com/).
-Metadata visualizations are built using open source libraries such as [DataTables](https://datatables.net/), [Leafletjs](http://leafletjs.com/), [Spotlight gallery](https://github.com/nextapps-de/spotlight), [lazysizes](https://github.com/aFarkas/lazysizes), and [Lunr.js](https://lunrjs.com/).
-Object metadata is exposed using [Schema.org](http://schema.org) and [Open Graph protocol](http://ogp.me/) standards.
+- [DataTables](https://datatables.net/)
+- [Leafletjs](http://leafletjs.com/)
+- [Spotlight gallery](https://github.com/nextapps-de/spotlight)
+- [lazysizes](https://github.com/aFarkas/lazysizes),
+- [Lunr.js](https://lunrjs.com/)
 
-Questions can be directed to **collectionbuilder.team@gmail.com**
+### Metadatos
+Los metadatos utilizados de ejemplo cumplen los estándares [Schema.org](http://schema.org) y [Open Graph protocol](http://ogp.me/).
 
-## License
 
-CollectionBuilder documentation and general web content is licensed [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). 
-This license does *NOT* include any objects or images used in digital collections, which may have individually applied licenses described by a "rights" field.
-CollectionBuilder code is licensed [MIT](https://github.com/CollectionBuilder/collectionbuilder-csv/blob/master/LICENSE). 
-This license does not include external dependencies included in the `assets/lib` directory, which are covered by their individual licenses.
+## Licencia
+Exposición Virtual está publicada bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International] (http://creativecommons.org/licenses/by-sa/4.0/), a excepción de las dependencias externas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
+Tampoco abarca los objetos digitales utilizados como ejemplo. En cada uno de ellos se especifica, bajo el campo "Licencia" la licencia concreta aplicada.
