@@ -1,8 +1,8 @@
 <p></p>
 <h1 align="center"><img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt=""><p></p></h1>
-<h3>La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
+<h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
-<a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías</a> &ensp;&bull;&ensp; <a href="#licencia">metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia</a>
+<a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a>
 
 # Exposición Virtual
 
@@ -17,10 +17,10 @@ El principal objetivo
 ## Cómo empezar
 Para utilizar esta plantilla:
 
-1- Prepara los metadatatos de tu colección siguiendo la plantilla de prueba publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
+1. Prepara los metadatatos de tu colección siguiendo la plantilla de prueba publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
-2- Reune en una carpeta todos los objetos digitales descritos en el CSV.
-3- Descarga [Fiador 1.0.](https://). 
+2. Reune en una carpeta todos los objetos digitales descritos en el CSV.
+3. Descarga [Fiador 1.0.](https://). 
 
 ----------
 <a name="tecnologias"></a>
