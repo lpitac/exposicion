@@ -1,8 +1,8 @@
-# CollectionBuilder-CSV
+# Exposición Virtual
 
-CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server (or built automatically using GitHub Actions).
+Exposición Virtual es un fork de [CollectionBuilder](https://collectionbuilder.github.io/) una plantilla basada en [Jekyll] (https://jekyllrb.com/), que permite construir un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
+Impulsada por los metadatos de su colección, la plantilla genera visualizaciones atractivas para navegar y explorar sus objetos.
+El sitio estático resultante se puede alojar en cualquier servidor web básico (o se puede construir automáticamente usando GitHub Actions).
 
 Visit the [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) for step-by-step details for getting started and building collections!
 
