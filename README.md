@@ -1,5 +1,5 @@
 <p></p>
-<h1 align="center"><img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.png" alt="" width="500px"><p></p></h1>
+<h1 align="center"><img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="" width="500px"><p></p></h1>
 <h3>La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
 <a href="#como">Cómo empezar</a> <a href="#tecnologias">Tecnologías</a> <a href="#licencia">metadatos</a> <a href="#licencia">Licencia</a>
