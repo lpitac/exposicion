@@ -7,13 +7,13 @@
 # Exposición Virtual
 
 Exposición Virtual es un fork de [CollectionBuilder](https://collectionbuilder.github.io/) una plantilla basada en [Jekyll](https://jekyllrb.com/), que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
-Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de ([GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
+Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 <a name="como"></a>
 ## Cómo empezar
 Para utilizar esta plantilla:
 
-1. Prepara los metadatatos de tu colección siguiendo la plantilla de prueba publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
+1. Prepara los __metadatatos__ de tu colección siguiendo la plantilla de prueba publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
 2. Reune en una carpeta todos los objetos digitales descritos en el CSV.
 3. Descarga [Fiador 1.0.](https://) 
