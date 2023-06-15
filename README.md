@@ -36,14 +36,14 @@ Descarga, instala y ejecuta [Fiador 1.0.](https://)
 
 ---
 <a name="tecnologias"></a>
-## Tecnologías empleadas
+# Tecnologías empleadas
 ### Creación del sitio web 
 La generación de las páginas necesarias para construir la exposición virtual basada en __HTML__, __CSS__ y __JavaScript__ se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
 
-### Tema de la plantilla 
+## Tema de la plantilla 
 El diseño del sitio web hace uso de [Bootstrap](https://getbootstrap.com/) un framework de código abierto que facilita la creación de interfaces web basadas en __HTML__, __CSS__ y __JavaScript__.
 
-### Bibliotecas JavaScript
+## Bibliotecas JavaScript
 Para crear las distintas visualizaciones e interaciones sobre los objetos y sus metadatos se han empleado las siguientes bibliotecas JavaScript: 
 
 - __Galería de imágenes__: [Spotlight gallery](https://github.com/nextapps-de/spotlight)
@@ -53,12 +53,12 @@ Para crear las distintas visualizaciones e interaciones sobre los objetos y sus 
 - __Buscador frontend__: [Lunr.js](https://lunrjs.com/)
 
 <a name="metadatos"></a>
-### Metadatos
+## Metadatos
 Los metadatos utilizados de ejemplo cumplen los estándares [Schema.org](http://schema.org) y [Open Graph protocol](http://ogp.me/).
 
 ---
 <a name="licencia"></a>
-## Licencia
+# Licencia
 __Exposición__ __Virtual__ está publicada bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/), a excepción de las dependencias externas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
 Tampoco abarca los objetos digitales utilizados como ejemplo. En cada uno de ellos se especifica, bajo el campo __"Licencia"__ la licencia concreta aplicada.
 
