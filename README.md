@@ -1,6 +1,6 @@
 <p></p>
 <h1 align="center"><img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt=""><p></p></h1>
-<h3 align="center">_La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos._</h3>
+<h3 align="center">_La_ _forma_ _más_ _sencilla_ _de_ _crear_ _una_ _exposición_ _virtual_ _a_ _partir_ _de_ _una_ _colección_ _de_ _objetos_ _digitales_ _y_ _un_ _CSV_ _con_ _sus_ _metadatos_.</h3>
 
 <h3 align="center"><a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
 
