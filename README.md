@@ -1,6 +1,6 @@
 <p></p>
 <img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
-<h1 align="center">Exposición virtual + Fiador 1.0</h1>
+<h1 align="center" style="color: blue;>Exposición virtual + Fiador 1.0</h1>
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
 <h3 align="center"><a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
