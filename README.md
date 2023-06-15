@@ -43,7 +43,7 @@ La generación de las páginas necesarias para construir la exposición virtual 
 El diseño del sitio web hace uso de [Bootstrap](https://getbootstrap.com/) un framework de código abierto que facilita la creación de interfaces web basadas en __HTML__, __CSS__ y __JavaScript__.
 
 ## Bibliotecas JavaScript
-Para crear las distintas visualizaciones e interaciones sobre los objetos y sus metadatos se han empleado las siguientes bibliotecas JavaScript: 
+Para crear las distintas visualizaciones e interaciones sobre los objetos y sus metadatos se emplean las siguientes bibliotecas JavaScript: 
 
 - __Galería de imágenes__: [Spotlight gallery](https://github.com/nextapps-de/spotlight)
 - __Cargador de imágenes__: [lazysizes](https://github.com/aFarkas/lazysizes)
