@@ -21,9 +21,9 @@ __Fiador__ es un software libre escrito en [Python](https://www.python.org) que 
 ----
 <a name="como"></a>
 # Cómo empezar
-Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtual__ : 
-1 __Instalación de prueba |__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
-2 __Instalación personalizada |__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
+Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtual__: 
+1. __Instalación de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
+2. __Instalación personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
 ## | Opción 1 - Instalación de prueba |
 Descarga, instala y ejecuta [Fiador 1.0.](https://) 
