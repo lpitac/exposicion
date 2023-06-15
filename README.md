@@ -1,6 +1,6 @@
 <p></p>
 <h1 align="center"><img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt=""><p></p></h1>
-<h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
+<h3 align="center">_La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos._</h3>
 
 <h3 align="center"><a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
 
@@ -13,23 +13,22 @@ Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un
 _Fiador_ es un software libre escrito en Python que permite automatizar la creación del sitio web basándose en la plantilla __Exposición__ __Virtual__.
 
 <h2>Demo<h2>
-<p>Exposición virtual de demostración:</p>
-	</h3><a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/ </a></h3>
+<p>Exposición virtual de demostración: <a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/ </a></p>
 
 <a name="como"></a>
 ## Cómo empezar
-Hay dos formas de utilizar __Fiado__ junto con la plantilla __Exposición__ __Virtual__: 
+Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición__ __Virtual__: 
 - __Instalación__ __de__ __prueba__: utiliza __los__ __objetos__ __digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
 - __Instalación__ __personalizada__: permite __definir__ __los__ __objetos__ __digitales__ y el __CSV__ que se utilizarán para generar el sitio web.
 
-### Instalación de prueba
-Descarga, instala y ejecuta [Fiador 1.0.](https://) 
+	### Instalación de prueba
+	Descarga, instala y ejecuta [Fiador 1.0.](https://) 
 
-### Instalación personalizada
-1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
-	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
-2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
-3. Descarga, instala y ejecuta [Fiador 1.0.](https://) 
+	### Instalación personalizada
+	1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
+		 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
+	2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
+	3. Descarga, instala y ejecuta [Fiador 1.0.](https://) 
 
 ---
 <a name="tecnologias"></a>
