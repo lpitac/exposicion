@@ -47,7 +47,7 @@ Para crear las distintas visualizaciones e interaciones sobre los objetos y sus 
 
 - __Galería de imágenes__: [Spotlight gallery](https://github.com/nextapps-de/spotlight)
 - __Cargador de imágenes__: [lazysizes](https://github.com/aFarkas/lazysizes)
-- __Tablas__: [DataTables](https://datatables.net/): plug-in para la biblioteca jQuery Javascript que permite crear tablas.
+- __Tablas__: [DataTables](https://datatables.net/)
 - __Mapas__: [Leafletjs](http://leafletjs.com/)
 - __Buscador frontend__: [Lunr.js](https://lunrjs.com/)
 
@@ -58,7 +58,7 @@ Los metadatos utilizados de ejemplo cumplen los estándares [Schema.org](http://
 ---
 <a name="licencia"></a>
 # Licencia
-__Exposición__ __Virtual__ está publicada bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/), a excepción de las dependencias externas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
+__Exposición__ __Virtual__ está publicada bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/), a excepción de las bibliotecas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
 Tampoco abarca los objetos digitales utilizados como ejemplo. En cada uno de ellos se especifica, bajo el campo __"Licencia"__ la licencia concreta aplicada.
 
 ---
