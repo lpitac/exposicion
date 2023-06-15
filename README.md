@@ -16,7 +16,7 @@ __Fiador__ es un software libre escrito en [Python](https://www.python.org) que 
 <a name="demo"></a>
 # Demo
 <p align="center">Exposición virtual de demostración:</p> 
-<h3 align="center"><a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/</a></h3>
+<h3 align="center"><a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/ target="_blank"></a></h3>
 
 ----
 <a name="como"></a>
