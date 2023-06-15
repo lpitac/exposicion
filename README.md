@@ -6,29 +6,29 @@
 
 # Exposición Virtual
 
-_Exposición_ _Virtual_ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/) una plantilla basada en [Jekyll](https://jekyllrb.com/), que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
+__Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/) una plantilla basada en [Jekyll](https://jekyllrb.com/), que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
 Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
-Se puede ver en acción en 
-
 # Fiador 1.0
-_Fiador_ es un software libre escrito en Python que permite automatizar la creación del sitio web basándose en la plantilla _Exposición_ _Virtual_.
+_Fiador_ es un software libre escrito en Python que permite automatizar la creación del sitio web basándose en la plantilla __Exposición__ __Virtual__.
 
-<h3>Exposición virtual de demostración:<p></p><a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/ </a></h3>
+<h2>Demo<h2>
+<p>Exposición virtual de demostración:</p>
+	</h3><a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/ </a></h3>
 
 <a name="como"></a>
 ## Cómo empezar
-Hay dos formas de utilizar _Fiador_ junto con la plantilla _Exposición_ _Virtual_: 
-- __Instalación__ __de__ __prueba__: utiliza los objetos digitales y el CSV con sus metadatos incluidos en la plantilla.
-- __Instalación__ __personalizada__: permite establecer los objetos digitales y el CSV que se utilizarán para generar el sitio web.
+Hay dos formas de utilizar __Fiado__ junto con la plantilla __Exposición__ __Virtual__: 
+- __Instalación__ __de__ __prueba__: utiliza __los__ __objetos__ __digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
+- __Instalación__ __personalizada__: permite __definir__ __los__ __objetos__ __digitales__ y el __CSV__ que se utilizarán para generar el sitio web.
 
 ### Instalación de prueba
 Descarga, instala y ejecuta [Fiador 1.0.](https://) 
 
 ### Instalación personalizada
-1. Prepara los __metadatatos__ de tu colección siguiendo la plantilla de prueba publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
+1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
-2. Reune en una carpeta todos los objetos digitales descritos en el CSV.
+2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga, instala y ejecuta [Fiador 1.0.](https://) 
 
 ---
