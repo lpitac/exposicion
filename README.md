@@ -25,10 +25,10 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 1. __Instalación de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
 2. __Instalación personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
-## | Opción 1 - Instalación de prueba |
+## | Opción 1 | Instalación de prueba
 Descarga, instala y ejecuta [Fiador 1.0.](https://) 
 
-## | Opción 2 - Instalación personalizada |
+## | Opción 2 | Instalación personalizada
 1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
