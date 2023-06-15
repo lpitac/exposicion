@@ -1,9 +1,9 @@
 <p></p>
 <img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
-# <p align="center" style="color: blue;">Exposición virtual + Fiador 1.0</p>
+<h1 align="center">Exposición virtual + Fiador 1.0</h1>
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
-<h3 align="center"><a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
+<h4 align="center"><a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h4>
 
 # Exposición Virtual
 
@@ -13,8 +13,9 @@ Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un
 # Fiador 1.0
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite automatizar la creación del sitio web basándose en la plantilla __Exposición__ __Virtual__.
 
+<a name="demo"></a>
 # Demo
-<p>Exposición virtual de demostración:</p> 
+<p align="center">Exposición virtual de demostración:</p> 
 <h3 align="center"><a href="https://lpitac.github.io/exposicion/">https://lpitac.github.io/exposicion/</a></h3>
 
 ----
