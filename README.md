@@ -37,7 +37,7 @@ Descarga, instala y ejecuta [Fiador 1.0.](https://)
 ---
 <a name="tecnologias"></a>
 # Tecnologías empleadas
-### Creación del sitio web 
+## Creación del sitio web 
 La generación de las páginas necesarias para construir la exposición virtual basada en __HTML__, __CSS__ y __JavaScript__ se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
 
 ## Tema de la plantilla 
