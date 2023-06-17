@@ -22,7 +22,7 @@ Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un
 ----
 <a name="como"></a>
 # Cómo empezar
-Hay dos formas de utilizar la plantilla __Exposición Virtual__ junto con [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX): 
+Hay dos formas de utilizar la plantilla ___Exposición Virtual___ junto con [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX): 
 1. __Instalación de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
 2. __Instalación personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
@@ -59,7 +59,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 ----
 <a name="tecnologias"></a>
 # Tecnologías empleadas
-La generación de las páginas necesarias para construir la exposición virtual basada en __HTML__, __CSS__ y __JavaScript__ se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
+La generación de las páginas necesarias para construir la exposición virtual se basa en __HTML__, __CSS__ y __JavaScript__ y se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
 
 ## Tema de la plantilla 
 El diseño del sitio web hace uso de [Bootstrap](https://getbootstrap.com/) un framework de código abierto que facilita la creación de interfaces web basadas en __HTML__, __CSS__ y __JavaScript__.
