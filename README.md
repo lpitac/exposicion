@@ -1,5 +1,5 @@
 <p></p>
-<img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
+<img src="https://lpitac.github.io/exposicion/assets/img/captura_portada_1.svg">
 
 > <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
@@ -17,7 +17,8 @@ Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un
 
 <a name="demo"></a>
 # Demo
-<h3 align="center">Exposición virtual de demostración:</h3> 
+<h3 align="center">Exposición virtual de demostración</h3> 
+<img src="https://github.com/lpitac/exposicion/blob/main/assets/img/captura_portada.svg" alt="">
 <h3 align="center"><a href="https://lpitac.github.io/exposicion/" target="_blank">https://lpitac.github.io/exposicion/</a></h3>
 
 ----
