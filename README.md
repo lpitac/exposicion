@@ -76,7 +76,7 @@ Para crear las distintas visualizaciones e interaciones sobre los objetos y sus 
 - __Buscador frontend__: [Lunr.js](https://lunrjs.com/)
 
 <a name="metadatos"></a>
-## Metadatos
+### Metadatos
 Los metadatos utilizados de ejemplo cumplen los estándares [Schema.org](http://schema.org) y [Open Graph protocol](http://ogp.me/).
 
 ---
