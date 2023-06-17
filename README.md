@@ -11,7 +11,9 @@ __Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collecti
 Este sitio web se puede alojar en una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 # Fiador 1.0
-[![Fiador](https://github.com/lpitac/exposicion/blob/main/assets/img/logo_fiador.svg){: style="float: left; margin-right: 10px;"}](https://github.com/lpitac/fiador) es un software libre escrito en [Python](https://www.python.org) que permite automatizar la creación del sitio web, listo para publicarse, basándose en la plantilla ___Exposición Virtual___.
+
+| [Fiador](https://github.com/lpitac/fiador) es un software libre escrito en Python (https://www.python.org) que permite automatizar la creación del sitio web, listo para publicarse, basándose en la plantilla Exposición Virtual. | ![Logo Fiador](ruta_del_logo/logo_fiador.svg) |
+|---|---|
 
 <h3 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">| Descargar Fiador 1.0 |</a></h3>
 
