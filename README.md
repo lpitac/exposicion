@@ -25,41 +25,55 @@ Este sitio web se puede alojar en una carpeta compartida de una red, en un servi
 ----
 <a name="como"></a>
 # Cómo empezar
-Hay dos formas de utilizar la plantilla ___Exposición Virtual___ junto con [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX): 
-1. __Instalación de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
-2. __Instalación personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
+[__Fiador 1.1__](https://purl.org/fiador/exe) ofrece tres funcionalidades:
+1. Generar una exposición.
+2. Editarla.
+3. Abrirla.
 
-## | Opción 1 | Exposición de prueba
-1. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX).
-2. Pulsa sobre el botón __"Exposición de prueba"__.
-3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
-4. Pulsa sobre el botón __"Generar"__.
+<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.svg"></h1>
 
-El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
+## Generar una exposición
+Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
+1. __Exposición de prueba__: utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
+2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web. 
 
-Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
+En ambos casos podrás editar los datos posteriormente.
 
-> <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
-
-
-## | Opción 2 | Exposición personalizada
-1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
-> Lo más recomendable es que hagas una __copia de esta plantilla__ y la guardes en tu cuenta de __Google Drive__. De este modo podrás editarla en línea, lo cual simplifica el proceso ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...). Una vez editada, descárgala en formato __CSV__ a tu equipo.
-2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
-3. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
-4. Pulsa sobre el botón __"Exposición personalizada"__.
-3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
-4. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición).
+### | Opción 1 | Exposición de prueba
+1. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe).
+2. Pulsa sobre el botón __"Generar exposición"__.
+3. Pulsa sobre el botón __"Exposición de prueba"__.
+4. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 5. Pulsa sobre el botón __"Generar"__.
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
 
-Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
+Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
+
+> <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
+
+
+
+### | Opción 2 | Exposición personalizada
+1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
+> Lo más recomendable es que hagas una __copia de esta plantilla__ y la guardes en tu cuenta de __Google Drive__. De este modo podrás editarla en línea, lo cual simplifica el proceso ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...). Una vez editada, descárgala en formato __CSV__ a tu equipo.
+2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
+3. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe) 
+4. Pulsa sobre el botón __"Generar exposición"__.
+5. Pulsa sobre el botón __"Exposición personalizada"__.
+6. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
+7. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición).
+8. Pulsa sobre el botón __"Generar"__.
+
+El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
+
+Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
 
 > <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
 
 ----
+
 <a name="tecnologias"></a>
 # Tecnologías empleadas
 La generación de las páginas necesarias para construir la exposición virtual se basa en __HTML__, __CSS__ y __JavaScript__ y se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
