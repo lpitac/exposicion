@@ -8,7 +8,7 @@
 # Exposición Virtual
 
 __Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/), una __plantilla__ basada en [Jekyll](https://jekyllrb.com/) que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
-Este sitio web se puede alojar en una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
+Este sitio web se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 # Fiador 1.0
 
