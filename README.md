@@ -14,7 +14,12 @@ Este sitio web se puede alojar en un servidor web básico (local o de internet) 
 
 | ![Logo Fiador](https://github.com/lpitac/exposicion/blob/main/assets/img/logo_fiador.svg) | [Fiador](https://github.com/lpitac/fiador) es un software libre escrito en [Python](https://www.python.org) que permite automatizar la creación del sitio web, listo para publicarse, basándose en la plantilla ___Exposición Virtual___. |
 |---|---|
-<h3 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">| Descargar Fiador 1.0 |</a></h3>
+<div align="center">
+  <h3>
+    <img src="https://github.com/lpitac/fiador/blob/main/iconos/descargar.png" alt="Icono de Descargar" style="vertical-align: middle;">
+    <a href="https://purl.org/fiador/exe">Descargar Fiador</a>
+  </h3>
+</div>
 
 <a name="demo"></a>
 # Demo
