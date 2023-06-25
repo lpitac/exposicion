@@ -10,7 +10,7 @@
 __Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/), una __plantilla__ basada en [Jekyll](https://jekyllrb.com/) que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
 Este sitio web se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
-# Fiador 1.0
+# Fiador
 
 | ![Logo Fiador](https://github.com/lpitac/exposicion/blob/main/assets/img/logo_fiador.svg) | [Fiador](https://github.com/lpitac/fiador) es un software libre escrito en [Python](https://www.python.org) que permite automatizar la creación del sitio web, listo para publicarse, basándose en la plantilla ___Exposición Virtual___. |
 |---|---|
@@ -30,7 +30,7 @@ Este sitio web se puede alojar en un servidor web básico (local o de internet) 
 2. Editarla.
 3. Abrirla.
 
-<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.svg"></h1>
+<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.png"></h1>
 
 ## Generar una exposición
 Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
