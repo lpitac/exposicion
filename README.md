@@ -112,7 +112,7 @@ Los metadatos utilizados de ejemplo cumplen los estándares [Schema.org](http://
 ---
 <a name="licencia"></a>
 # Licencia
-__Exposición__ __Virtual__ está publicada bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/), a excepción de las bibliotecas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
+__Exposición__ __Virtual__ está publicada bajo licencia [MIT](https://opensource.org/license/mit/), a excepción de las bibliotecas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
 Tampoco abarca los objetos digitales utilizados como ejemplo. En cada uno de ellos se especifica, bajo el campo __"Licencia"__ la licencia concreta aplicada.
 
 ---
