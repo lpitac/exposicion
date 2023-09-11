@@ -7,7 +7,7 @@
 
 # Exposición Virtual
 
-__Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/), una __plantilla__ basada en [Jekyll](https://jekyllrb.com/) que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
+__Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder-CSV](https://collectionbuilder.github.io/), una __plantilla__ basada en [Jekyll](https://jekyllrb.com/) que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
 Este sitio web se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 # Fiador
@@ -30,7 +30,7 @@ Este sitio web se puede alojar en un servidor web básico (local o de internet) 
 ----
 <a name="como"></a>
 # Cómo empezar
-[__Fiador 1.1__](https://purl.org/fiador/exe) ofrece tres funcionalidades:
+[__Fiador 1.0__](https://purl.org/fiador/exe) ofrece tres funcionalidades:
 1. Generar una exposición.
 2. Editarla.
 3. Abrirla.
@@ -38,7 +38,7 @@ Este sitio web se puede alojar en un servidor web básico (local o de internet) 
 <h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.png"></h1>
 
 ## Generar una exposición
-Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
+Hay dos formas de utilizar [__Fiador 1.0__](https://purl.org/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
 1. __Exposición de prueba__: utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
 2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web. 
 
@@ -47,7 +47,7 @@ En ambos casos podrás editar los datos posteriormente.
 <p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_generar_expo.png"></p>
 
 ### | Opción 1 | Exposición de prueba
-1. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe).
+1. Descarga y ejecuta [__Fiador 1.0__](https://purl.org/fiador/exe).
 2. Pulsa sobre el botón __"Generar exposición"__.
 3. Pulsa sobre el botón __"Exposición de prueba"__.
 4. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
@@ -66,7 +66,7 @@ Al pulsar sobre el botón __"Ok"__ la exposición se abrirá automáticamente en
 ### | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). | Wiki -[¿Cómo utilizar la plantilla de prueba](https://github.com/lpitac/fiador/wiki/Metadatos) |
 2. Reúne en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__. | Wiki - [Formatos compatibles](https://github.com/lpitac/fiador/wiki/Objetos-digitales) |
-3. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe) 
+3. Descarga y ejecuta [__Fiador 1.0__](https://purl.org/fiador/exe) 
 4. Pulsa sobre el botón __"Generar exposición"__.
 5. Pulsa sobre el botón __"Exposición personalizada"__.
 	- Selecciona el __directorio__ donde deseas albergar los archivos de la exposición.
