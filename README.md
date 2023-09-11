@@ -64,7 +64,7 @@ Al pulsar sobre el botón __"Ok"__ la exposición se abrirá automáticamente en
 <p></p>
 
 ### | Opción 2 | Exposición personalizada
-1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). | Wiki -[¿Cómo utilizar la plantilla de prueba](https://github.com/lpitac/fiador/wiki/Metadatos) |
+1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1j330xd6E3-PKpFYi_oTGbh8sARu-VMDdkZ5w9datpy0/edit#gid=835025159). | Wiki -[¿Cómo utilizar la plantilla de prueba](https://github.com/lpitac/fiador/wiki/Metadatos) |
 2. Reúne en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__. | Wiki - [Formatos compatibles](https://github.com/lpitac/fiador/wiki/Objetos-digitales) |
 3. Descarga y ejecuta [__Fiador 1.0__](https://purl.org/fiador/exe) 
 4. Pulsa sobre el botón __"Generar exposición"__.
